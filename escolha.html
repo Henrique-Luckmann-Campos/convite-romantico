@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Onde vamos?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container" id="tela-form">
+    <h2>O que está a fim de comer hoje? ❤️</h2>
+
+    <form id="form">
+      <select id="comida">
+        <option>Massa</option>
+        <option>Pizza</option>
+        <option>Hambúrguer</option>
+        <option>Comida Japonesa</option>
+        <option>Comida Árabe</option>
+        <option>Outro</option>
+      </select>
+      <br><br>
+      <input type="text" id="outro" placeholder="Caso seja outro, escreva aqui">
+      <br><br>
+      <button>Enviar ❤️</button>
+    </form>
+  </div>
+
+  <div class="container" id="tela-obrigado" style="display:none;">
+    <h2>Obrigado pela sua escolha! ❤️</h2>
+    <p>Já vou pensar direitinho no nosso encontro 😊</p>
+    <br>
+    <a href="index.html"><button>Voltar para o início</button></a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="escolha.js"></script>
+</body>
+</html>

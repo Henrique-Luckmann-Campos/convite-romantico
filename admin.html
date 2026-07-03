@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Histórico ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .container { max-width: 600px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+    th { background: #ff4d88; color: #fff; }
+    #vazio { margin-top: 20px; color: #888; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Histórico de respostas 📋</h2>
+    <table id="tabela">
+      <thead>
+        <tr><th>Data</th><th>Comida escolhida</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <p id="vazio" style="display:none;">Ainda não tem nenhuma resposta salva.</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
